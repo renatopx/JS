@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Numero:
+                <input type="number" name="nmr" id="numero">
+                <input type="button" value="Gerar Tabuada" onclick="calcular()">
+            </p>
+            <label for="opcao">Escolha uma opção</label>
+            <select id="select">
+                <option value="adi">Adição</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="divi">Divisão</option>
+            </select>
+            <br>
+            <select name="tabuada" id="seltab" size="10"></select>
+        </div>
+        <div id="result">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Curso em Video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
